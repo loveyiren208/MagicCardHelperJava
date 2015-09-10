@@ -14,16 +14,17 @@ public class AbstractCardsCollection {
     private int mCount;
     private boolean hasCollected = false;
     private int mCollectTimes = 0;
-    private boolean mOutOfPrint = false;
+    private boolean mIsOutOfPrint = false;
     private int mStars;
     private boolean mIsChangeable;
     private Date mReleaseDate;
     private Date mOutOfPrintDate;
 
     public AbstractCardsCollection(final int count, final String name, final boolean outOfPrint, final int stars, final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate) {
+        mCards = new AbstractCard[count];
         mCount = count;
         mName = name;
-        mOutOfPrint = outOfPrint;
+        mIsOutOfPrint = outOfPrint;
         mStars = stars;
         mIsChangeable = isChangeable;
         mReleaseDate = releaseDate;
@@ -34,20 +35,28 @@ public class AbstractCardsCollection {
         return mCards.length;
     }
 
-    public void isFinished() {
+    public void isAlreadyCollected() {
         hasCollected = true;
     }
 
-    public void setCollectTime (final int time) {
+    public void setCollectTimes(final int time) {
         mCollectTimes = time;
     }
 
-    public boolean isValuable() {
-        return mOutOfPrint;
+    public boolean isOutOfPrint() {
+        return mIsOutOfPrint;
+    }
+
+    public void setOutOfPrint() {
+         mIsOutOfPrint = true;
     }
 
     public AbstractCard[] getCards() {
         return mCards;
+    }
+
+    public boolean isIsChangeable() {
+        return mIsChangeable;
     }
 
     @Override

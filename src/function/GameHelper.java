@@ -20,7 +20,7 @@ public class GameHelper {
     public ArrayList<AbstractCard> findCardsFromCollections(final ArrayList<AbstractCardsCollection> collections, final int value, final boolean fromValuableCollection) {
         ArrayList<AbstractCard> neededCards = new ArrayList<AbstractCard>();
         for (AbstractCardsCollection collection : collections) {
-            if (collection.isValuable() == fromValuableCollection) {
+            if (collection.isOutOfPrint() == fromValuableCollection) {
                 AbstractCard[] cards = collection.getCards();
                 for (int i = 0; i < cards.length; i++) {
                     if (cards[i].getValue() == value) {

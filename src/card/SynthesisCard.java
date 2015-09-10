@@ -7,29 +7,21 @@ import collection.AbstractCardsCollection;
  */
 public class SynthesisCard extends AbstractCard {
     private AbstractCard[] mSubCards;
-    private int mSynthesisTime;
+    private long mDirectSynthesisTimeInS;
 
-    public SynthesisCard(final int id, final String name, final int value, final AbstractCardsCollection collection) {
-        super(id, name, value, collection);
-    }
-
-    public SynthesisCard(final int id, final String name, final int value, final AbstractCardsCollection collection, final int time) {
-        this(id, name, value, collection);
-        mSynthesisTime = time;
-    }
 
     public SynthesisCard(final int id, final String name, final int value, final AbstractCardsCollection collection,
                          final AbstractCard[] cards, final int time) {
-        this(id, name, value, collection, time);
+        super(id, name, value, collection, cards[0].getLevel() + 1);
+        mDirectSynthesisTimeInS = time;
         setUpSubCards(cards);
     }
 
     public SynthesisCard(final int id, final String name, final int value, final AbstractCardsCollection collection, final AbstractCard c1,
                          final AbstractCard c2, final AbstractCard c3, final int time) {
-        super(id, name, value, collection);
+        super(id, name, value, collection, c1.getLevel() + 1);
         setUpSubCards(c1, c2, c3);
-        mSynthesisTime = time;
-
+        mDirectSynthesisTimeInS = time;
     }
 
     public void setUpSubCards(final AbstractCard[] cards) {
@@ -44,5 +36,20 @@ public class SynthesisCard extends AbstractCard {
 
     public AbstractCard[] getSubCards() {
         return mSubCards;
+    }
+
+    public long getDirectSynthesisTimeInS() {
+        return mDirectSynthesisTimeInS;
+    }
+
+    @Override
+    public long getTotalSynthesisTimeInS() {
+        return mDirectSynthesisTimeInS + mSubCards[0].getTotalSynthesisTimeInS() + mSubCards[1].getTotalSynthesisTimeInS() +
+                mSubCards[2].getTotalSynthesisTimeInS();
+    }
+
+    @Override
+    public boolean isBoughtable() {
+        return false;
     }
 }
