@@ -1,0 +1,82 @@
+{
+  "CollectionName": "蜻蜓款款飞",
+  "Count": 9,
+  "IsOutPrint": false,
+  "Stars": 1,
+  "IsChangeable": false,
+  "ReleaseDate": "2010-07-01",
+  "OutPrintDate": null,
+  "TotalTime": 24,
+  "Cards": [
+    {
+      "CardName": "大团扇春",
+      "Value": 10,
+      "Time": 0,
+      "SubCardsIDs": []
+    },
+    {
+      "CardName": "褐斑蜻蜓",
+      "Value": 10,
+      "Time": 0,
+      "SubCardsIDs": []
+    },
+    {
+      "CardName": "霜白蜻蜓",
+      "Value": 10,
+      "Time": 0,
+      "SubCardsIDs": []
+    },
+    {
+      "CardName": "侏儒蜻蜓",
+      "Value": 10,
+      "Time": 0,
+      "SubCardsIDs": []
+    },
+    {
+      "CardName": "杜松蜻蜓",
+      "Value": 10,
+      "Time": 0,
+      "SubCardsIDs": []
+    },
+    {
+      "CardName": "碧伟蜓",
+      "Value": 40,
+      "Time": 1,
+      "SubCardsIDs": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "CardName": "鼎脈蜻蜓",
+      "Value": 40,
+      "Time": 1,
+      "SubCardsIDs": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "CardName": "长痣蜻蜓",
+      "Value": 40,
+      "Time": 1,
+      "SubCardsIDs": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "CardName": "蜻蜓款款",
+      "Value": 150,
+      "Time": 4,
+      "SubCardsIDs": [
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}

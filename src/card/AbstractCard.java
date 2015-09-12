@@ -11,6 +11,7 @@ public abstract class AbstractCard {
     private String mName;
 
     private int mId;
+    // Basic card level is 0. Synthesis cards' level > 0;
     private int mLevel;
 
     public AbstractCard(final int id, final String name, final int value, final AbstractCardsCollection collection, final int level) {
@@ -45,5 +46,19 @@ public abstract class AbstractCard {
 
     public boolean isOutOfPrint() {
         return mMyCollection.isOutOfPrint();
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("id: " + mId + "\n");
+        builder.append("name: " + mName + "\n");
+        builder.append("value: " + mValue + "\n");
+        builder.append("level: " + mLevel + "\n");
+        builder.append("collection: " + mMyCollection.getName() + "\n");
+        builder.append("isChangeable: " + isChangable() + "\n");
+        builder.append("isOutOfPrint: " + isOutOfPrint() + "\n");
+
+        return builder.toString();
     }
 }

@@ -48,8 +48,4 @@ public class SynthesisCard extends AbstractCard {
                 mSubCards[2].getTotalSynthesisTimeInS();
     }
 
-    @Override
-    public boolean isBoughtable() {
-        return false;
-    }
 }

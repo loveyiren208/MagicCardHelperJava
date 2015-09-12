@@ -20,8 +20,11 @@ public class AbstractCardsCollection {
     private Date mReleaseDate;
     private Date mOutOfPrintDate;
 
-    public AbstractCardsCollection(final int count, final String name, final boolean outOfPrint, final int stars, final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate) {
-        mCards = new AbstractCard[count];
+    private long mTotalTimeInH;
+
+    public AbstractCardsCollection(final int count, final String name, final boolean outOfPrint, final int stars,
+                                   final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate,
+                                   final long totalTimeInH) {
         mCount = count;
         mName = name;
         mIsOutOfPrint = outOfPrint;
@@ -29,10 +32,19 @@ public class AbstractCardsCollection {
         mIsChangeable = isChangeable;
         mReleaseDate = releaseDate;
         mOutOfPrintDate = outOfPrintDate;
+        mTotalTimeInH = totalTimeInH;
+    }
+
+    public String getName() {
+        return mName;
     }
 
     public int getNumberOfCards() {
-        return mCards.length;
+        if (mCards == null) {
+            return 0;
+        } else {
+            return mCards.length;
+        }
     }
 
     public void isAlreadyCollected() {
@@ -50,6 +62,9 @@ public class AbstractCardsCollection {
     public void setOutOfPrint() {
          mIsOutOfPrint = true;
     }
+    public void setCards(final AbstractCard[] cards) {
+        mCards = cards;
+    }
 
     public AbstractCard[] getCards() {
         return mCards;
@@ -57,6 +72,10 @@ public class AbstractCardsCollection {
 
     public boolean isIsChangeable() {
         return mIsChangeable;
+    }
+
+    public long getTotalTimeinH() {
+        return mTotalTimeInH;
     }
 
     @Override

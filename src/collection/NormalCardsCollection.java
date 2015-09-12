@@ -10,19 +10,13 @@ import java.util.Date;
  */
 public class NormalCardsCollection extends AbstractCardsCollection {
     public NormalCardsCollection(final int count, final String name, final boolean outOfPrint, final int stars,
-                                 final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate) {
-        super(count, name, outOfPrint, stars, isChangeable, releaseDate, outOfPrintDate);
+                                 final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate, final long totalTime) {
+        super(count, name, outOfPrint, stars, isChangeable, releaseDate, outOfPrintDate, totalTime);
     }
 
     public void setUpBasicCards(final int value, final int count) {
         for (int i = 0 ; i < count; i++) {
             mCards[i] = new BasicCard(i, null, value, this);
-        }
-    }
-
-    public void setUpCardsLevel(final int startId, final int count, final int value, final int time) {
-        for (int i = startId; i < startId + count; i++) {
-            mCards[i] = new SynthesisCard(i, null, value, this, time);
         }
     }
 
