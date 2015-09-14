@@ -15,7 +15,7 @@ public class MagicCardsGame {
 
     private GameHelper mHelper = new GameHelper();
     public MagicCardsGame() {
-        mCollections = mHelper.getAllCollections();
+        //mCollections = mHelper.getAllCollections();
     }
 
     public ArrayList<AbstractCardsCollection> getAllCollections() {
@@ -27,6 +27,7 @@ public class MagicCardsGame {
     }
 
     public void addCardsCollection(String newCollectionPath){
+        System.out.println("add card");
         AbstractCardsCollection newCollection = null;
         try {
             newCollection = mHelper.createCollectionFromJSON(newCollectionPath);
@@ -43,5 +44,10 @@ public class MagicCardsGame {
 
     private void save() {
         mHelper.save(mCollections);
+    }
+
+    public static void main(String[] args) {
+        MagicCardsGame game = new MagicCardsGame();
+        game.addCardsCollection("/Users/Vivian/IdeaProjects/QQMagicCard/res/newCollection");
     }
 }

@@ -18,7 +18,11 @@ import collection.NormalCardsCollection;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.simple.parser.JSONParser;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -43,14 +47,20 @@ public class JsonHandler {
     private static final String SUB_CARDS_IDS = "SubCardsIDs"; // The value is 3 cards' ids
     private static final int SYNTHESIS_NUMBER = 3;
 
-    public AbstractCardsCollection createCollectionFromJSON(final String path) throws JSONException {
+    public AbstractCardsCollection createCollectionFromJSON(final String path){
         AbstractCardsCollection newCollection = null;
         JSONObject obj = null;
         try {
-            obj = new JSONObject(path);
+            FileReader reader = new FileReader(path);
+            JSONParser p = new JSONParser();
+            obj = new JSONObject(reader.read());
         } catch (JSONException e) {
             e.printStackTrace();
             return newCollection;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
 
         String collectionName = obj.getString(COLLECTION_NAME);
