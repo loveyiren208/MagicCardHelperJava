@@ -2,10 +2,12 @@ package card;
 
 import collection.AbstractCardsCollection;
 
+import java.io.Serializable;
+
 /**
  * Created by Vivian on 7/21/15.
  */
-public abstract class AbstractCard {
+public abstract class AbstractCard implements Serializable{
     private int mValue;
     private AbstractCardsCollection mMyCollection;
     private String mName;
@@ -20,6 +22,7 @@ public abstract class AbstractCard {
         mName = name;
         mMyCollection = collection;
         mLevel = level;
+        System.out.println(" value " + value);
     }
 
     public int getValue() {

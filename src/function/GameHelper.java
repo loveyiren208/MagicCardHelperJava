@@ -4,6 +4,7 @@ import card.AbstractCard;
 import collection.AbstractCardsCollection;
 import org.json.JSONException;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -16,7 +17,7 @@ import java.util.ArrayList;
  */
 public class GameHelper {
 
-    private static final String ALL_COLLECTIONS_PATH = "AllCollections.ser";
+    private static final String ALL_COLLECTIONS_PATH = "res/AllCollections.ser";
 
     public ArrayList<AbstractCardsCollection> getAllCollections() {
         ArrayList<AbstractCardsCollection> allCollections = new ArrayList<AbstractCardsCollection>();
@@ -24,16 +25,24 @@ public class GameHelper {
         FileInputStream fis = null;
         ObjectInputStream in = null;
 
+
+        File file = new File(ALL_COLLECTIONS_PATH);
+        System.out.println(" file exist " + file.exists());
         try {
-            fis = new FileInputStream(ALL_COLLECTIONS_PATH);
-            in = new ObjectInputStream(fis);
+            fis = new FileInputStream(file);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             return allCollections;
+        }
+
+        try {
+            in = new ObjectInputStream(fis);
         } catch (IOException e) {
             e.printStackTrace();
             return allCollections;
+
         }
+
 
         try {
             allCollections = (ArrayList<AbstractCardsCollection>)in.readObject();
@@ -68,9 +77,9 @@ public class GameHelper {
 
     }
 
-    public AbstractCardsCollection createCollectionFromJSON(final String path) throws JSONException {
+    public AbstractCardsCollection createCollectionFromJSON(final ArrayList<AbstractCardsCollection> allCollections, final String path) throws JSONException {
         JsonHandler handler = new JsonHandler();
-        return handler.createCollectionFromJSON(path);
+        return handler.createCollectionFromJSON(allCollections, path);
     }
 
 
@@ -90,7 +99,7 @@ public class GameHelper {
                 AbstractCard[] cards = collection.getCards();
                 for (int i = 0; i < cards.length; i++) {
                     if (cards[i].getValue() == value) {
-                        neededCards.add(cards[1]);
+                        neededCards.add(cards[i]);
                     }
                 }
             }

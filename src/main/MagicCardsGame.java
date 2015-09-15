@@ -15,7 +15,8 @@ public class MagicCardsGame {
 
     private GameHelper mHelper = new GameHelper();
     public MagicCardsGame() {
-        //mCollections = mHelper.getAllCollections();
+        mCollections = mHelper.getAllCollections();
+        System.out.println("collection count: " + mCollections.size());
     }
 
     public ArrayList<AbstractCardsCollection> getAllCollections() {
@@ -26,11 +27,11 @@ public class MagicCardsGame {
         return mHelper.findCardsFromNotOutPrintCollections(getAllCollections(), value);
     }
 
-    public void addCardsCollection(String newCollectionPath){
+    public void addCardsCollection(final ArrayList<AbstractCardsCollection> allCollections, final String newCollectionPath){
         System.out.println("add card");
         AbstractCardsCollection newCollection = null;
         try {
-            newCollection = mHelper.createCollectionFromJSON(newCollectionPath);
+            newCollection = mHelper.createCollectionFromJSON(allCollections, newCollectionPath);
         } catch (JSONException e) {
             e.printStackTrace();
             System.err.println("Failed to create card collection " + e.toString());
@@ -40,6 +41,8 @@ public class MagicCardsGame {
         if (newCollection != null) {
             mCollections.add(newCollection);
         }
+
+        save();
     }
 
     private void save() {
@@ -48,6 +51,18 @@ public class MagicCardsGame {
 
     public static void main(String[] args) {
         MagicCardsGame game = new MagicCardsGame();
-        game.addCardsCollection("/Users/Vivian/IdeaProjects/QQMagicCard/res/newCollection");
+        game.addCardsCollection(game.getAllCollections(), "res/newCollection");
+
+        game.find(game);
+
+    }
+
+    public void find(MagicCardsGame game) {
+
+        ArrayList<AbstractCard> array = game.findCardsFromNotOutPrintCollection(150);
+
+        for (AbstractCard c : array) {
+            System.out.println(c.toString());
+        }
     }
 }

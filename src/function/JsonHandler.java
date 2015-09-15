@@ -18,13 +18,14 @@ import collection.NormalCardsCollection;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class JsonHandler {
@@ -47,13 +48,17 @@ public class JsonHandler {
     private static final String SUB_CARDS_IDS = "SubCardsIDs"; // The value is 3 cards' ids
     private static final int SYNTHESIS_NUMBER = 3;
 
-    public AbstractCardsCollection createCollectionFromJSON(final String path){
+    public AbstractCardsCollection createCollectionFromJSON(final ArrayList<AbstractCardsCollection> allCollections, final String path){
         AbstractCardsCollection newCollection = null;
         JSONObject obj = null;
         try {
-            FileReader reader = new FileReader(path);
-            JSONParser p = new JSONParser();
-            obj = new JSONObject(reader.read());
+            File file = new File(path);
+            FileInputStream fis = new FileInputStream(file);
+            byte[] data = new byte[(int) file.length()];
+            fis.read(data);
+            fis.close();
+            String str = new String(data, "UTF-8");
+            obj = new JSONObject(str);
         } catch (JSONException e) {
             e.printStackTrace();
             return newCollection;
@@ -64,6 +69,11 @@ public class JsonHandler {
         }
 
         String collectionName = obj.getString(COLLECTION_NAME);
+
+        if (isDuplicateCollection(allCollections, collectionName)) {
+            return newCollection;
+        }
+
         int count = obj.getInt(COUNT);
         boolean isOutPrint = obj.getBoolean(IS_OUT_PRINT);
         int starts = obj.getInt(STARS);
@@ -104,10 +114,11 @@ public class JsonHandler {
 
             JSONArray cardsIds = cardObj.getJSONArray(SUB_CARDS_IDS);
             AbstractCard[] subCards = null;
-            if (cardsIds != null) {
+
+            if (cardsIds.length() != 0) {
                 subCards = new AbstractCard[SYNTHESIS_NUMBER];
-                for (int j = 0; i < cardsIds.length(); j++) {
-                    int subCardId = cardsIds.getInt(0);
+                for (int j = 0; j < cardsIds.length(); j++) {
+                    int subCardId = cardsIds.getInt(j);
                     subCards[j] = cards[subCardId];
                 }
             }
@@ -118,10 +129,26 @@ public class JsonHandler {
             } else {
                 cards[i] = new SynthesisCard(i, cardName, value, newCollection, subCards, time);
             }
+
+           // System.out.println(cards[i].toString());
         }
 
         newCollection.setCards(cards);
 
         return newCollection;
+    }
+
+    private boolean isDuplicateCollection(final ArrayList<AbstractCardsCollection> allCollection, final String collectionName) {
+        if (allCollection == null || allCollection.size() <= 0) {
+            return false;
+        }
+
+        for (AbstractCardsCollection c : allCollection) {
+            if (c.getName().equals(collectionName)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

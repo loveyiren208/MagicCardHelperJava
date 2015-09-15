@@ -2,12 +2,13 @@ package collection;
 
 import card.AbstractCard;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by Vivian on 7/21/15.
  */
-public class AbstractCardsCollection {
+public class AbstractCardsCollection implements Serializable {
 
     protected AbstractCard[] mCards;
     private String mName;
