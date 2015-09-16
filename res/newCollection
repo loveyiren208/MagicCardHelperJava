@@ -1,46 +1,46 @@
 {
-  "CollectionName": "蜻蜓款款飞",
-  "Count": 9,
+  "CollectionName": "国粹京剧(闪)",
+  "Count": 13,
   "IsOutPrint": false,
   "Stars": 1,
-  "IsChangeable": false,
-  "ReleaseDate": "2010-07-01",
+  "IsChangeable": true,
+  "ReleaseDate": "2011-07-27",
   "OutPrintDate": null,
   "TotalTime": 24,
   "Cards": [
     {
-      "CardName": "大团扇春",
-      "Value": 10,
+      "CardName": "生角",
+      "Value": 30,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "褐斑蜻蜓",
-      "Value": 10,
+      "CardName": "旦角",
+      "Value": 30,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "霜白蜻蜓",
-      "Value": 10,
+      "CardName": "净角",
+      "Value": 30,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "侏儒蜻蜓",
-      "Value": 10,
+      "CardName": "末角",
+      "Value": 30,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "杜松蜻蜓",
-      "Value": 10,
+      "CardName": "丑角",
+      "Value": 30,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "碧伟蜓",
-      "Value": 40,
+      "CardName": "武生",
+      "Value": 120,
       "Time": 1,
       "SubCardsIDs": [
         0,
@@ -49,8 +49,8 @@
       ]
     },
     {
-      "CardName": "鼎脈蜻蜓",
-      "Value": 40,
+      "CardName": "青衣",
+      "Value": 120,
       "Time": 1,
       "SubCardsIDs": [
         1,
@@ -59,8 +59,8 @@
       ]
     },
     {
-      "CardName": "长痣蜻蜓",
-      "Value": 40,
+      "CardName": "武士",
+      "Value": 120,
       "Time": 1,
       "SubCardsIDs": [
         2,
@@ -69,13 +69,53 @@
       ]
     },
     {
-      "CardName": "蜻蜓款款",
-      "Value": 150,
+      "CardName": "状元",
+      "Value": 120,
+      "Time": 1,
+      "SubCardsIDs": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "CardName": "芝麻官",
+      "Value": 120,
+      "Time": 1,
+      "SubCardsIDs": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "CardName": "白蛇传奇",
+      "Value": 450,
       "Time": 4,
       "SubCardsIDs": [
         5,
         6,
         7
+      ]
+    },
+    {
+      "CardName": "霸王别姬",
+      "Value": 450,
+      "Time": 4,
+      "SubCardsIDs": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "CardName": "苏三起解",
+      "Value": 450,
+      "Time": 4,
+      "SubCardsIDs": [
+        7,
+        8,
+        9
       ]
     }
   ]

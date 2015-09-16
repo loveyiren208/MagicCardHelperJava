@@ -16,13 +16,13 @@ import card.SynthesisCard;
 import collection.AbstractCardsCollection;
 import collection.NormalCardsCollection;
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -48,41 +48,24 @@ public class JsonHandler {
     private static final String SUB_CARDS_IDS = "SubCardsIDs"; // The value is 3 cards' ids
     private static final int SYNTHESIS_NUMBER = 3;
 
-    public AbstractCardsCollection createCollectionFromJSON(final ArrayList<AbstractCardsCollection> allCollections, final String path){
+    private AbstractCardsCollection createOneCollectionFromJSONHelper(final ArrayList<AbstractCardsCollection> allCollections, final JSONObject oneCollectionJSON){
         AbstractCardsCollection newCollection = null;
-        JSONObject obj = null;
-        try {
-            File file = new File(path);
-            FileInputStream fis = new FileInputStream(file);
-            byte[] data = new byte[(int) file.length()];
-            fis.read(data);
-            fis.close();
-            String str = new String(data, "UTF-8");
-            obj = new JSONObject(str);
-        } catch (JSONException e) {
-            e.printStackTrace();
-            return newCollection;
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
-        String collectionName = obj.getString(COLLECTION_NAME);
+        String collectionName = oneCollectionJSON.getString(COLLECTION_NAME);
 
         if (isDuplicateCollection(allCollections, collectionName)) {
             return newCollection;
         }
 
-        int count = obj.getInt(COUNT);
-        boolean isOutPrint = obj.getBoolean(IS_OUT_PRINT);
-        int starts = obj.getInt(STARS);
-        boolean isChangeable = obj.getBoolean(IS_CHANGEABLE);
+        int count = oneCollectionJSON.getInt(COUNT);
+        boolean isOutPrint = oneCollectionJSON.getBoolean(IS_OUT_PRINT);
+        int starts = oneCollectionJSON.getInt(STARS);
+        boolean isChangeable = oneCollectionJSON.getBoolean(IS_CHANGEABLE);
 
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         Date releaseDate = null;
         try {
-            releaseDate = formatter.parse(obj.getString(RELEASE_DATE));
+            releaseDate = formatter.parse(oneCollectionJSON.getString(RELEASE_DATE));
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -90,20 +73,20 @@ public class JsonHandler {
         Date outPrintDate = null;
         if (isOutPrint) {
             try {
-                outPrintDate = formatter.parse(obj.getString(OUT_PRINT_DATE));
+                outPrintDate = formatter.parse(oneCollectionJSON.getString(OUT_PRINT_DATE));
             } catch (ParseException e) {
                 e.printStackTrace();
             }
         }
 
-        int totalTimeInH = obj.getInt(TOTAL_TIME);
+        int totalTimeInH = oneCollectionJSON.getInt(TOTAL_TIME);
 
 
         newCollection = new NormalCardsCollection(count, collectionName, isOutPrint, starts, isChangeable, releaseDate, outPrintDate, totalTimeInH);
 
         // Set up cards in the new Collection
         AbstractCard[] cards = new AbstractCard[count];
-        JSONArray array = obj.getJSONArray(CARDS);
+        JSONArray array = oneCollectionJSON.getJSONArray(CARDS);
 
         for (int i = 0; i < array.length(); i++) {
             JSONObject cardObj = array.getJSONObject(i);
@@ -129,8 +112,6 @@ public class JsonHandler {
             } else {
                 cards[i] = new SynthesisCard(i, cardName, value, newCollection, subCards, time);
             }
-
-           // System.out.println(cards[i].toString());
         }
 
         newCollection.setCards(cards);
@@ -138,12 +119,58 @@ public class JsonHandler {
         return newCollection;
     }
 
-    private boolean isDuplicateCollection(final ArrayList<AbstractCardsCollection> allCollection, final String collectionName) {
-        if (allCollection == null || allCollection.size() <= 0) {
+    public ArrayList<AbstractCardsCollection> createManyCollectionsFromJSON(final ArrayList<AbstractCardsCollection> allCollections, final String path) {
+        ArrayList<AbstractCardsCollection> newCollections = new ArrayList<AbstractCardsCollection>();
+        JSONArray array = new JSONArray(getStringFromJSON(path));
+
+        for (int i = 0; i < array.length(); i++) {
+            AbstractCardsCollection c = createOneCollectionFromJSONHelper(allCollections, array.getJSONObject(i));
+            if (c != null) {
+                newCollections.add(c);
+            }
+        }
+        return newCollections;
+    }
+
+    public AbstractCardsCollection createOneCollectionFromJSON(final ArrayList<AbstractCardsCollection> allCollections, final String path) {
+        JSONObject object = new JSONObject(getStringFromJSON(path));
+        return createOneCollectionFromJSONHelper(allCollections, object);
+    }
+
+    private String getStringFromJSON(final String path) {
+        File file = new File(path);
+        FileInputStream fis = null;
+        try {
+            fis = new FileInputStream(file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        byte[] data = new byte[(int) file.length()];
+        try {
+            fis.read(data);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            fis.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String str = null;
+        try {
+            str = new String(data, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return str;
+    }
+
+    private boolean isDuplicateCollection(final ArrayList<AbstractCardsCollection> allCollections, final String collectionName) {
+        if (allCollections == null || allCollections.size() <= 0) {
             return false;
         }
 
-        for (AbstractCardsCollection c : allCollection) {
+        for (AbstractCardsCollection c : allCollections) {
             if (c.getName().equals(collectionName)) {
                 return true;
             }

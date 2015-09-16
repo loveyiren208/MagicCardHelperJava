@@ -77,9 +77,14 @@ public class GameHelper {
 
     }
 
-    public AbstractCardsCollection createCollectionFromJSON(final ArrayList<AbstractCardsCollection> allCollections, final String path) throws JSONException {
+    public AbstractCardsCollection createOneCollectionFromJSON(final ArrayList<AbstractCardsCollection> allCollections, final String path) throws JSONException {
         JsonHandler handler = new JsonHandler();
-        return handler.createCollectionFromJSON(allCollections, path);
+        return handler.createOneCollectionFromJSON(allCollections, path);
+    }
+
+    public ArrayList<AbstractCardsCollection> createManyCollectionsFromJSON(final ArrayList<AbstractCardsCollection> allCollections, final String path) throws JSONException {
+        JsonHandler handler = new JsonHandler();
+        return handler.createManyCollectionsFromJSON(allCollections, path);
     }
 
 
