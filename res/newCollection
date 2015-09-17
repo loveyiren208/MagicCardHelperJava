@@ -1,46 +1,52 @@
 {
-  "CollectionName": "国粹京剧(闪)",
-  "Count": 13,
+  "CollectionName": "全民备战",
+  "Count": 15,
   "IsOutPrint": false,
   "Stars": 1,
   "IsChangeable": true,
   "ReleaseDate": "2011-07-27",
-  "OutPrintDate": null,
+  "OutPrintDate": "2011-09-27",
   "TotalTime": 24,
   "Cards": [
     {
-      "CardName": "生角",
-      "Value": 30,
+      "CardName": "海军士兵",
+      "Value": 10,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "旦角",
-      "Value": 30,
+      "CardName": "阵地哨兵",
+      "Value": 10,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "净角",
-      "Value": 30,
+      "CardName": "文艺汇演",
+      "Value": 10,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "末角",
-      "Value": 30,
+      "CardName": "移动打靶",
+      "Value": 10,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "丑角",
-      "Value": 30,
+      "CardName": "农闲学习",
+      "Value": 10,
       "Time": 0,
       "SubCardsIDs": []
     },
     {
-      "CardName": "武生",
-      "Value": 120,
+      "CardName": "骁勇士兵",
+      "Value": 10,
+      "Time": 1,
+      "SubCardsIDs": []
+    },
+    {
+      "CardName": "苦练本领",
+      "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
         0,
@@ -49,8 +55,38 @@
       ]
     },
     {
-      "CardName": "青衣",
-      "Value": 120,
+      "CardName": "发射导弹",
+      "Value": 40,
+      "Time": 1,
+      "SubCardsIDs": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "CardName": "雪地训练",
+      "Value": 40,
+      "Time": 1,
+      "SubCardsIDs": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "CardName": "英勇作战",
+      "Value": 40,
+      "Time": 1,
+      "SubCardsIDs": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "CardName": "坚定信仰",
+      "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
         1,
@@ -59,48 +95,18 @@
       ]
     },
     {
-      "CardName": "武士",
-      "Value": 120,
-      "Time": 1,
-      "SubCardsIDs": [
-        2,
-        3,
-        4
-      ]
-    },
-    {
-      "CardName": "状元",
-      "Value": 120,
+      "CardName": "投手榴弹",
+      "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
         0,
-        3,
-        4
+        4,
+        5
       ]
     },
     {
-      "CardName": "芝麻官",
-      "Value": 120,
-      "Time": 1,
-      "SubCardsIDs": [
-        0,
-        1,
-        4
-      ]
-    },
-    {
-      "CardName": "白蛇传奇",
-      "Value": 450,
-      "Time": 4,
-      "SubCardsIDs": [
-        5,
-        6,
-        7
-      ]
-    },
-    {
-      "CardName": "霸王别姬",
-      "Value": 450,
+      "CardName": "军民一家",
+      "Value": 150,
       "Time": 4,
       "SubCardsIDs": [
         6,
@@ -109,13 +115,23 @@
       ]
     },
     {
-      "CardName": "苏三起解",
-      "Value": 450,
+      "CardName": "中国领土",
+      "Value": 150,
       "Time": 4,
       "SubCardsIDs": [
-        7,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "CardName": "严正申明",
+      "Value": 150,
+      "Time": 4,
+      "SubCardsIDs": [
+        6,
         8,
-        9
+        10
       ]
     }
   ]

@@ -77,8 +77,8 @@ public class MagicCardsGame {
        game.addManyCardsCollections(game.getAllCollections(), "res/AlreadyStoredCollections");
         game.addCardsCollection(game.getAllCollections(), "res/newCollection");
 
-       game.find(game);
-        game.find2(game);
+      game.find(game);
+      //  game.find2(game);
     }
 
     public void find(MagicCardsGame game) {
@@ -93,7 +93,7 @@ public class MagicCardsGame {
 
     public void find2(MagicCardsGame game) {
 
-        ArrayList<AbstractCard> array = game.findCardsFromOutPrintCollection(450);
+        ArrayList<AbstractCard> array = game.findCardsFromOutPrintCollection(150);
 
         for (AbstractCard c : array) {
             System.out.println(c.toString());

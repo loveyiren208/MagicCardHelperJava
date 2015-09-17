@@ -1152,5 +1152,252 @@
         ]
       }
     ]
+  },
+  {
+    "CollectionName": "情溢中秋",
+    "Count": 12,
+    "IsOutPrint": true,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "OutPrintDate": "2011-09-27",
+    "TotalTime": 24,
+    "Cards": [
+      {
+        "CardName": "菊花茶",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "挂彩灯",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "美味水果",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "烧花塔",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "桂花酿",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "舞火龙",
+        "Value": 10,
+        "Time": 1,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "赏月",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "团聚",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "月饼",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "秋灯",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "CardName": "拜月",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "CardName": "情溢中秋",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          5,
+          6,
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "CollectionName": "全民备战",
+    "Count": 15,
+    "IsOutPrint": false,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "OutPrintDate": "2011-09-27",
+    "TotalTime": 24,
+    "Cards": [
+      {
+        "CardName": "海军士兵",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "阵地哨兵",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "文艺汇演",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "移动打靶",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "农闲学习",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "骁勇士兵",
+        "Value": 10,
+        "Time": 1,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "苦练本领",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "发射导弹",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "雪地训练",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "CardName": "英勇作战",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "CardName": "坚定信仰",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "投手榴弹",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "军民一家",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "CardName": "中国领土",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "CardName": "严正申明",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          8,
+          10
+        ]
+      }
+    ]
   }
+
 ]
