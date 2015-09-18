@@ -1,51 +1,41 @@
 {
-  "CollectionName": "全民备战",
+  "CollectionName": "愚你同乐",
   "Count": 15,
-  "IsOutPrint": false,
   "Stars": 1,
-  "IsChangeable": true,
+  "IsChangeable": false,
   "ReleaseDate": "2011-07-27",
   "OutPrintDate": "2011-09-27",
-  "TotalTime": 24,
   "Cards": [
     {
-      "CardName": "海军士兵",
-      "Value": 10,
-      "Time": 0,
-      "SubCardsIDs": []
+      "CardName": "弹簧眼珠",
+      "Value": 10
     },
     {
-      "CardName": "阵地哨兵",
-      "Value": 10,
-      "Time": 0,
-      "SubCardsIDs": []
+      "CardName": "仿真便便",
+      "Value": 10
     },
     {
-      "CardName": "文艺汇演",
-      "Value": 10,
-      "Time": 0,
-      "SubCardsIDs": []
+      "CardName": "仿真蛇",
+      "Value": 10
     },
     {
-      "CardName": "移动打靶",
-      "Value": 10,
-      "Time": 0,
-      "SubCardsIDs": []
+      "CardName": "仿真蜘蛛",
+      "Value": 10
     },
     {
-      "CardName": "农闲学习",
-      "Value": 10,
-      "Time": 0,
-      "SubCardsIDs": []
+      "CardName": "放屁坐垫",
+      "Value": 10
     },
     {
-      "CardName": "骁勇士兵",
-      "Value": 10,
-      "Time": 1,
-      "SubCardsIDs": []
+      "CardName": "搞怪小锤",
+      "Value": 10
     },
     {
-      "CardName": "苦练本领",
+      "CardName": "露屁屁短裤",
+      "Value": 10
+    },
+    {
+      "CardName": "惨叫鸡",
       "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
@@ -55,7 +45,7 @@
       ]
     },
     {
-      "CardName": "发射导弹",
+      "CardName": "硅胶油漆",
       "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
@@ -65,7 +55,7 @@
       ]
     },
     {
-      "CardName": "雪地训练",
+      "CardName": "怪味饮料",
       "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
@@ -75,7 +65,7 @@
       ]
     },
     {
-      "CardName": "英勇作战",
+      "CardName": "牙膏夹心",
       "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
@@ -85,7 +75,7 @@
       ]
     },
     {
-      "CardName": "坚定信仰",
+      "CardName": "整人短信",
       "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
@@ -95,43 +85,33 @@
       ]
     },
     {
-      "CardName": "投手榴弹",
+      "CardName": "小丑箱",
       "Value": 40,
       "Time": 1,
       "SubCardsIDs": [
-        0,
         4,
-        5
+        5,
+        6
       ]
     },
     {
-      "CardName": "军民一家",
-      "Value": 150,
-      "Time": 4,
+      "CardName": "整人马桶",
+      "Value": 40,
+      "Time": 1,
       "SubCardsIDs": [
-        6,
-        7,
-        8
+        2,
+        3,
+        4
       ]
     },
     {
-      "CardName": "中国领土",
+      "CardName": "愚你同乐",
       "Value": 150,
       "Time": 4,
       "SubCardsIDs": [
-        9,
-        10,
-        11
-      ]
-    },
-    {
-      "CardName": "严正申明",
-      "Value": 150,
-      "Time": 4,
-      "SubCardsIDs": [
-        6,
         8,
-        10
+        10,
+        12
       ]
     }
   ]

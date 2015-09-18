@@ -83,7 +83,7 @@ public class MagicCardsGame {
 
     public void find(MagicCardsGame game) {
 
-        ArrayList<AbstractCard> array = game.findCardsFromNotOutPrintCollection(450);
+        ArrayList<AbstractCard> array = game.findCardsFromNotOutPrintCollection(150);
 
         for (AbstractCard c : array) {
             System.out.println(c.toString());

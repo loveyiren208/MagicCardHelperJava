@@ -10,8 +10,8 @@ import java.util.Date;
  */
 public class NormalCardsCollection extends AbstractCardsCollection {
     public NormalCardsCollection(final int count, final String name, final boolean outOfPrint, final int stars,
-                                 final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate, final long totalTime) {
-        super(count, name, outOfPrint, stars, isChangeable, releaseDate, outOfPrintDate, totalTime);
+                                 final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate) {
+        super(count, name, outOfPrint, stars, isChangeable, releaseDate, outOfPrintDate);
     }
 
     public void setUpBasicCards(final int value, final int count) {

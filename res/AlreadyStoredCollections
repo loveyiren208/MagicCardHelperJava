@@ -1154,6 +1154,114 @@
     ]
   },
   {
+      "CollectionName": "国粹京剧(闪)",
+      "Stars": 1,
+      "IsChangeable": true,
+      "ReleaseDate": "2011-07-27",
+      "Cards": [
+        {
+          "CardName": "生角",
+          "Value": 30
+        },
+        {
+          "CardName": "旦角",
+          "Value": 30
+        },
+        {
+          "CardName": "净角",
+          "Value": 30
+        },
+        {
+          "CardName": "末角",
+          "Value": 30
+        },
+        {
+          "CardName": "丑角",
+          "Value": 30
+        },
+        {
+          "CardName": "武生",
+          "Value": 120,
+          "Time": 1,
+          "SubCardsIDs": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "CardName": "青衣",
+          "Value": 120,
+          "Time": 1,
+          "SubCardsIDs": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "CardName": "武士",
+          "Value": 120,
+          "Time": 1,
+          "SubCardsIDs": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "CardName": "状元",
+          "Value": 120,
+          "Time": 1,
+          "SubCardsIDs": [
+            0,
+            3,
+            4
+          ]
+        },
+        {
+          "CardName": "芝麻官",
+          "Value": 120,
+          "Time": 1,
+          "SubCardsIDs": [
+            0,
+            1,
+            4
+          ]
+        },
+        {
+          "CardName": "白蛇传奇",
+          "Value": 450,
+          "Time": 4,
+          "SubCardsIDs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "CardName": "霸王别姬",
+          "Value": 450,
+          "Time": 4,
+          "SubCardsIDs": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "CardName": "苏三起解",
+          "Value": 450,
+          "Time": 4,
+          "SubCardsIDs": [
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+  {
     "CollectionName": "情溢中秋",
     "Count": 12,
     "IsOutPrint": true,
@@ -1398,6 +1506,1020 @@
         ]
       }
     ]
+  },
+  {
+    "CollectionName": "荷风韵染",
+    "Count": 15,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "TotalTime": 24,
+    "Cards": [
+      {
+        "CardName": "脱俗",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "婉约",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "绝色",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "清秀",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "艳冶",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "素颜",
+        "Value": 10,
+        "Time": 1,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "离亭燕",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "天仙子",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "鹊桥仙",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "CardName": "浣溪沙",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "浪淘沙",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "念奴娇",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "CardName": "粉妆玉砌",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "CardName": "赏心悦目",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "CardName": "倾国倾城",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          8,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "CollectionName": "缤纷冰激凌",
+    "Count": 15,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "TotalTime": 24,
+    "Cards": [
+      {
+        "CardName": "小木勺",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "经典脆皮",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "奶转",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "草莓火炬",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "黑巧克力",
+        "Value": 10,
+        "Time": 0,
+        "SubCardsIDs": []
+      },
+      {
+        "CardName": "绿舌头",
+        "Value": 10,
+        "Time": 1
+      },
+      {
+        "CardName": "香草脆筒",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "香橙冰工",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "星星蛋卷",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "CardName": "水果三色",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "花心筒",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "蜜桃夹心",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "CardName": "一口难忘",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "CardName": "花花世界",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "CardName": "巧克力诱惑",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          8,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "CollectionName": "猫咪国度",
+    "Count": 15,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "TotalTime": 24,
+    "Cards": [
+      {
+        "CardName": "布偶猫",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "日本短尾",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "阿比西尼",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "西伯利亚",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "索马里猫",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "美国卷猫",
+        "Value": 10,
+        "Time": 1
+      },
+      {
+        "CardName": "斯芬克斯",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "孟加拉猫",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "波曼猫",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "CardName": "苏格兰折",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "缅甸猫",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "俄罗斯蓝",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "CardName": "波斯猫",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "CardName": "暹罗猫",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "CardName": "狸花猫",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          8,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "CollectionName": "珍禽",
+    "Count": 15,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "Cards": [
+      {
+        "CardName": "褐马鸡",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "红腹锦鸡",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "黄嘴白鹭",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "鸳鸯",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "啄木鸟",
+        "Value": 10,
+        "Time": 0
+      },
+      {
+        "CardName": "野鸡",
+        "Value": 10,
+        "Time": 1
+      },
+      {
+        "CardName": "白腹锦鸡",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "白鹇",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "长尾阔嘴",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "CardName": "短耳鸮",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "楔尾绿鸠",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "黑翅鳶",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "CardName": "金雕",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "CardName": "丹顶鹤",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "CardName": "绿孔雀",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          8,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "CollectionName": "珍禽（闪）",
+    "Count": 15,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "Cards": [
+      {
+        "CardName": "褐马鸡",
+        "Value": 30
+      },
+      {
+        "CardName": "红腹锦鸡",
+        "Value": 30
+      },
+      {
+        "CardName": "黄嘴白鹭",
+        "Value": 30
+      },
+      {
+        "CardName": "鸳鸯",
+        "Value": 30
+      },
+      {
+        "CardName": "啄木鸟",
+        "Value": 30
+      },
+      {
+        "CardName": "野鸡",
+        "Value": 30
+      },
+      {
+        "CardName": "白腹锦鸡",
+        "Value": 120,
+        "Time": 3,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "白鹇",
+        "Value": 120,
+        "Time": 3,
+        "SubCardsIDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "长尾阔嘴",
+        "Value": 120,
+        "Time": 3,
+        "SubCardsIDs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "CardName": "短耳鸮",
+        "Value": 120,
+        "Time": 3,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "楔尾绿鸠",
+        "Value": 120,
+        "Time": 3,
+        "SubCardsIDs": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "黑翅鳶",
+        "Value": 120,
+        "Time": 3,
+        "SubCardsIDs": [
+          0,
+          1,
+          5
+        ]
+      },
+      {
+        "CardName": "金雕",
+        "Value": 450,
+        "Time": 12,
+        "SubCardsIDs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "CardName": "丹顶鹤",
+        "Value": 450,
+        "Time": 12,
+        "SubCardsIDs": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "CardName": "绿孔雀",
+        "Value": 450,
+        "Time": 12,
+        "SubCardsIDs": [
+          6,
+          8,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "CollectionName": "酷爽果乐",
+    "Count": 15,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "OutPrintDate": "2011-09-27",
+    "Cards": [
+      {
+        "CardName": "苹果",
+        "Value": 10
+      },
+      {
+        "CardName": "柠檬",
+        "Value": 10
+      },
+      {
+        "CardName": "橙子",
+        "Value": 10
+      },
+      {
+        "CardName": "气泡",
+        "Value": 10
+      },
+      {
+        "CardName": "草地",
+        "Value": 10
+      },
+      {
+        "CardName": "足球",
+        "Value": 10
+      },
+      {
+        "CardName": "含果汁",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "柠檬果汁",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "CardName": "橙果汁果",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "啦啦队",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "球员",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "爽更要健",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "汇源果汁",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "CardName": "果汁果乐",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "CardName": "激情世界",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "CollectionName": "甜蜜Dell灵越",
+    "Count": 15,
+    "Stars": 1,
+    "IsChangeable": true,
+    "ReleaseDate": "2011-07-27",
+    "OutPrintDate": "2011-09-27",
+    "Cards": [
+      {
+        "CardName": "刺激摘菜",
+        "Value": 10
+      },
+      {
+        "CardName": "游戏娱乐",
+        "Value": 10
+      },
+      {
+        "CardName": "上网冲浪",
+        "Value": 10
+      },
+      {
+        "CardName": "完美音乐",
+        "Value": 10
+      },
+      {
+        "CardName": "畅享办公",
+        "Value": 10
+      },
+      {
+        "CardName": "艺术设计",
+        "Value": 10
+      },
+      {
+        "CardName": "散热迅速",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "漂悦设计",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "CardName": "拉丝质感",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "独立显卡",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "颜色靓丽",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "强劲的心",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "孔雀蓝糖",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "CardName": "莲花粉糖",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "CardName": "西红柿糖",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "CollectionName": "愚你同乐",
+    "Count": 15,
+    "Stars": 1,
+    "IsChangeable": false,
+    "ReleaseDate": "2011-07-27",
+    "OutPrintDate": "2011-09-27",
+    "Cards": [
+      {
+        "CardName": "弹簧眼珠",
+        "Value": 10
+      },
+      {
+        "CardName": "仿真便便",
+        "Value": 10
+      },
+      {
+        "CardName": "仿真蛇",
+        "Value": 10
+      },
+      {
+        "CardName": "仿真蜘蛛",
+        "Value": 10
+      },
+      {
+        "CardName": "放屁坐垫",
+        "Value": 10
+      },
+      {
+        "CardName": "搞怪小锤",
+        "Value": 10
+      },
+      {
+        "CardName": "露屁屁短裤",
+        "Value": 10
+      },
+      {
+        "CardName": "惨叫鸡",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "CardName": "硅胶油漆",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "CardName": "怪味饮料",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "CardName": "牙膏夹心",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          3,
+          5
+        ]
+      },
+      {
+        "CardName": "整人短信",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "CardName": "小丑箱",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "CardName": "整人马桶",
+        "Value": 40,
+        "Time": 1,
+        "SubCardsIDs": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "CardName": "愚你同乐",
+        "Value": 150,
+        "Time": 4,
+        "SubCardsIDs": [
+          8,
+          10,
+          12
+        ]
+      }
+    ]
   }
-
 ]

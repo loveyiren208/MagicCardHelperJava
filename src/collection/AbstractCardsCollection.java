@@ -24,8 +24,7 @@ public class AbstractCardsCollection implements Serializable {
     private long mTotalTimeInH;
 
     public AbstractCardsCollection(final int count, final String name, final boolean outOfPrint, final int stars,
-                                   final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate,
-                                   final long totalTimeInH) {
+                                   final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate) {
         mCount = count;
         mName = name;
         mIsOutOfPrint = outOfPrint;
@@ -33,7 +32,6 @@ public class AbstractCardsCollection implements Serializable {
         mIsChangeable = isChangeable;
         mReleaseDate = releaseDate;
         mOutOfPrintDate = outOfPrintDate;
-        mTotalTimeInH = totalTimeInH;
     }
 
     public String getName() {
