@@ -1,6 +1,6 @@
 package card;
 
-import collection.AbstractCardsCollection;
+import level.Level;
 
 /**
  * Created by Vivian on 7/22/15.
@@ -10,18 +10,8 @@ public class SynthesisCard extends AbstractCard {
     private long mDirectSynthesisTimeInS;
 
 
-    public SynthesisCard(final int id, final String name, final int value, final AbstractCardsCollection collection,
-                         final AbstractCard[] cards, final int time) {
-        super(id, name, value, collection, cards[0].getLevel() + 1);
-        mDirectSynthesisTimeInS = time;
-        setUpSubCards(cards);
-    }
-
-    public SynthesisCard(final int id, final String name, final int value, final AbstractCardsCollection collection, final AbstractCard c1,
-                         final AbstractCard c2, final AbstractCard c3, final int time) {
-        super(id, name, value, collection, c1.getLevel() + 1);
-        setUpSubCards(c1, c2, c3);
-        mDirectSynthesisTimeInS = time;
+    public SynthesisCard(final int id, final String name, final Level level) {
+        super(id, name, level);
     }
 
     public void setUpSubCards(final AbstractCard[] cards) {
@@ -38,14 +28,14 @@ public class SynthesisCard extends AbstractCard {
         return mSubCards;
     }
 
-    public long getDirectSynthesisTimeInS() {
+    public long getDirectSynthesisTimeInH() {
         return mDirectSynthesisTimeInS;
     }
 
     @Override
-    public long getTotalSynthesisTimeInS() {
-        return mDirectSynthesisTimeInS + mSubCards[0].getTotalSynthesisTimeInS() + mSubCards[1].getTotalSynthesisTimeInS() +
-                mSubCards[2].getTotalSynthesisTimeInS();
+    public long getTotalSynthesisTimeInH() {
+        return mDirectSynthesisTimeInS + mSubCards[0].getTotalSynthesisTimeInH() + mSubCards[1].getTotalSynthesisTimeInH() +
+                mSubCards[2].getTotalSynthesisTimeInH();
     }
 
 }

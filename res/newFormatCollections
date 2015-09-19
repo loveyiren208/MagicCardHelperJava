@@ -1,0 +1,3278 @@
+[
+    {
+        "CollectionName": "蜻蜓款款飞",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "大团扇春"},
+                    {"CardName": "褐斑蜻蜓"},
+                    {"CardName": "霜白蜻蜓"},
+                    {"CardName": "侏儒蜻蜓"},
+                    {"CardName": "杜松蜻蜓"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "碧伟蜓",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "鼎脈蜻蜓",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "长痣蜻蜓",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "蜻蜓款款",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 2,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-11-09",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "橡皮泥的记忆",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "录音机"},
+                    {"CardName": "随身听"},
+                    {"CardName": "喷壶"},
+                    {"CardName": "手表"},
+                    {"CardName": "溜冰鞋"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "计算机",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "电视机",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "雷达",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "兔子",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 2,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-12-18",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "瓢虫物语",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "十二褐斑"},
+                    {"CardName": "六星瓢虫"},
+                    {"CardName": "红环瓢虫"},
+                    {"CardName": "龟纹瓢虫"},
+                    {"CardName": "赤星瓢虫"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "柯氏素菌",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "纵条瓢虫",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "茄二十八",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "七星瓢虫",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 2,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-11-09",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "经典女套装",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "字母项链"},
+                    {"CardName": "斜跨书包"},
+                    {"CardName": "夏日眼镜"},
+                    {"CardName": "可爱笑脸"},
+                    {"CardName": "橘色皮带"},
+                    {"CardName": "褐色长发"},
+                    {"CardName": "格子短裙"},
+                    {"CardName": "粉红高跟"},
+                    {"CardName": "草莓蝴蝶"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "清新办公",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 8,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "韩式打扮",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "粉红上衣",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 6,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 7,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "整套搭配",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 2,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2009-09-03",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "经典男套装",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "小熊项链"},
+                    {"CardName": "微笑表情"},
+                    {"CardName": "可爱小狗"},
+                    {"CardName": "灰色长裤"},
+                    {"CardName": "红黑手提"},
+                    {"CardName": "褐色皮鞋"},
+                    {"CardName": "韩流发型"},
+                    {"CardName": "潮人腰带"},
+                    {"CardName": "超酷眼镜"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "浪漫办公",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "酷帅打扮",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 6,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 8,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "黑白搭配",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 7,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "整套搭配",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 2,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2009-09-03",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "时尚男套装",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "银珠裤链"},
+                    {"CardName": "黄色"},
+                    {"CardName": "黑色提包"},
+                    {"CardName": "鸭舌帽子"},
+                    {"CardName": "魅力黑裤"},
+                    {"CardName": "黑框大镜"},
+                    {"CardName": "黑白布鞋"},
+                    {"CardName": "韩版长发"},
+                    {"CardName": "搞怪笑脸"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "套白马甲",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 6,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "酷帅打扮",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 7,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 8,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "城市街道",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "整套搭配",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 2,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2009-09-03",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "时尚女套装",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "单车"},
+                    {"CardName": "经典包包"},
+                    {"CardName": "M字腰带"},
+                    {"CardName": "时尚卷发"},
+                    {"CardName": "休闲西裤"},
+                    {"CardName": "可爱笑脸"},
+                    {"CardName": "魔力项链"},
+                    {"CardName": "活力板鞋"},
+                    {"CardName": "韩版帽子"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "别墅背景",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "潮流打扮",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 8,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "彩虹短袖",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 6,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 7,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "整套搭配",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 2,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2009-09-03",
+        "IsChangeable": true
+    },
+    {
+        "OutPrintDate": "2015-06-17",
+        "CollectionName": "飘香粽子",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "碱水"},
+                    {"CardName": "糯米"},
+                    {"CardName": "鲜肉"},
+                    {"CardName": "咸蛋黄"},
+                    {"CardName": "豆豆"},
+                    {"CardName": "粽叶"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "水晶粽子",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "凉粽",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "嘉兴粽子",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "青叶粽",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "什锦粽",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "裹蒸粽",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "香飘粽子",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 2,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 4,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2015-06-17",
+        "IsChangeable": false
+    },
+    {
+        "OutPrintDate": "2015-05-06",
+        "CollectionName": "紫色蝴蝶兰",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "V3"},
+                    {"CardName": "红龙"},
+                    {"CardName": "黄金甲"},
+                    {"CardName": "火鸟"},
+                    {"CardName": "夕阳红"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "豹斑花",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "Kitty-猫",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "雪中红",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "青苹果",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "日本姑娘",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "希望之翼",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "富乐夕阳",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "空港枫叶",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2015-04-02",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "美馔佳肴",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "佛跳墙"},
+                    {"CardName": "北京烤鸭"},
+                    {"CardName": "脆皮乳猪"},
+                    {"CardName": "无为黑鸦"},
+                    {"CardName": "清蒸武昌"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "蟹粉狮子",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "西湖醋鱼",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "麻婆豆腐",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "腊味合蒸",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "九转大肠",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "八宝玉食",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "美馔佳肴",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "秀色可餐",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "国粹京剧",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "生角"},
+                    {"CardName": "旦角"},
+                    {"CardName": "净角"},
+                    {"CardName": "末角"},
+                    {"CardName": "丑角"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "武生",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "青衣",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "武士",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "状元",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "芝麻官",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "白蛇传奇",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "霸王别姬",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "苏三起解",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "国粹京剧(闪)",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 30,
+                "LevelCards": [
+                    {"CardName": "生角"},
+                    {"CardName": "旦角"},
+                    {"CardName": "净角"},
+                    {"CardName": "末角"},
+                    {"CardName": "丑角"}
+                ]
+            },
+            {
+                "Value": 120,
+                "LevelCards": [
+                    {
+                        "CardName": "武生",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "青衣",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "武士",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "状元",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "芝麻官",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 450,
+                "LevelCards": [
+                    {
+                        "CardName": "白蛇传奇",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "霸王别姬",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "苏三起解",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "OutPrintDate": "2011-09-27",
+        "CollectionName": "情溢中秋",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "菊花茶"},
+                    {"CardName": "挂彩灯"},
+                    {"CardName": "美味水果"},
+                    {"CardName": "烧花塔"},
+                    {"CardName": "桂花酿"},
+                    {"CardName": "舞火龙"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "赏月",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "团聚",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "月饼",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "秋灯",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "拜月",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "情溢中秋",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 5,
+                            "SynthesisCardLevel": 0
+                        },
+                        {
+                            "SynthesisCardId": 0,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "OutPrintDate": "2011-09-27",
+        "CollectionName": "全民备战",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "海军士兵"},
+                    {"CardName": "阵地哨兵"},
+                    {"CardName": "文艺汇演"},
+                    {"CardName": "移动打靶"},
+                    {"CardName": "农闲学习"},
+                    {"CardName": "骁勇士兵"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "苦练本领",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "发射导弹",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "雪地训练",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "英勇作战",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "坚定信仰",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "投手榴弹",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "军民一家",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "中国领土",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "严正申明",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "荷风韵染",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "脱俗"},
+                    {"CardName": "婉约"},
+                    {"CardName": "绝色"},
+                    {"CardName": "清秀"},
+                    {"CardName": "艳冶"},
+                    {"CardName": "素颜"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "离亭燕",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "天仙子",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "鹊桥仙",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "浣溪沙",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "浪淘沙",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "念奴娇",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "粉妆玉砌",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "赏心悦目",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "倾国倾城",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "缤纷冰激凌",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "小木勺"},
+                    {"CardName": "经典脆皮"},
+                    {"CardName": "奶转"},
+                    {"CardName": "草莓火炬"},
+                    {"CardName": "黑巧克力"},
+                    {"CardName": "绿舌头"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "香草脆筒",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "香橙冰工",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "星星蛋卷",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "水果三色",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "花心筒",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "蜜桃夹心",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "一口难忘",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "花花世界",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "巧克力诱惑",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "猫咪国度",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "布偶猫"},
+                    {"CardName": "日本短尾"},
+                    {"CardName": "阿比西尼"},
+                    {"CardName": "西伯利亚"},
+                    {"CardName": "索马里猫"},
+                    {"CardName": "美国卷猫"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "斯芬克斯",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "孟加拉猫",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "波曼猫",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "苏格兰折",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "缅甸猫",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "俄罗斯蓝",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "波斯猫",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "暹罗猫",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "狸花猫",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "珍禽",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "褐马鸡"},
+                    {"CardName": "红腹锦鸡"},
+                    {"CardName": "黄嘴白鹭"},
+                    {"CardName": "鸳鸯"},
+                    {"CardName": "啄木鸟"},
+                    {"CardName": "野鸡"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "白腹锦鸡",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "白鹇",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "长尾阔嘴",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "短耳鸮",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "楔尾绿鸠",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "黑翅鳶",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "金雕",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "丹顶鹤",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "绿孔雀",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "CollectionName": "珍禽（闪）",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 30,
+                "LevelCards": [
+                    {"CardName": "褐马鸡"},
+                    {"CardName": "红腹锦鸡"},
+                    {"CardName": "黄嘴白鹭"},
+                    {"CardName": "鸳鸯"},
+                    {"CardName": "啄木鸟"},
+                    {"CardName": "野鸡"}
+                ]
+            },
+            {
+                "Value": 120,
+                "LevelCards": [
+                    {
+                        "CardName": "白腹锦鸡",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "白鹇",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "长尾阔嘴",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "短耳鸮",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "楔尾绿鸠",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "黑翅鳶",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 3
+            },
+            {
+                "Value": 450,
+                "LevelCards": [
+                    {
+                        "CardName": "金雕",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "丹顶鹤",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "绿孔雀",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 12
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "OutPrintDate": "2011-09-27",
+        "CollectionName": "酷爽果乐",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "苹果"},
+                    {"CardName": "柠檬"},
+                    {"CardName": "橙子"},
+                    {"CardName": "气泡"},
+                    {"CardName": "草地"},
+                    {"CardName": "足球"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "含果汁",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "柠檬果汁",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "橙果汁果",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "啦啦队",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "球员",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "爽更要健",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "汇源果汁",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "果汁果乐",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "激情世界",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "OutPrintDate": "2011-09-27",
+        "CollectionName": "甜蜜Dell灵越",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "刺激摘菜"},
+                    {"CardName": "游戏娱乐"},
+                    {"CardName": "上网冲浪"},
+                    {"CardName": "完美音乐"},
+                    {"CardName": "畅享办公"},
+                    {"CardName": "艺术设计"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "散热迅速",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "漂悦设计",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "拉丝质感",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "独立显卡",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "颜色靓丽",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "强劲的心",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [
+                    {
+                        "CardName": "孔雀蓝糖",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "莲花粉糖",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "西红柿糖",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 1
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 1
+                            }
+                        ]
+                    }
+                ],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": true
+    },
+    {
+        "OutPrintDate": "2011-09-27",
+        "CollectionName": "愚你同乐",
+        "Stars": 1,
+        "Levels": [
+            {
+                "Value": 10,
+                "LevelCards": [
+                    {"CardName": "弹簧眼珠"},
+                    {"CardName": "仿真便便"},
+                    {"CardName": "仿真蛇"},
+                    {"CardName": "仿真蜘蛛"},
+                    {"CardName": "放屁坐垫"},
+                    {"CardName": "搞怪小锤"},
+                    {"CardName": "露屁屁短裤"}
+                ]
+            },
+            {
+                "Value": 40,
+                "LevelCards": [
+                    {
+                        "CardName": "惨叫鸡",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "硅胶油漆",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "怪味饮料",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 0,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "牙膏夹心",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "整人短信",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 1,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "小丑箱",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 5,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 6,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    },
+                    {
+                        "CardName": "整人马桶",
+                        "SynthesisCards": [
+                            {
+                                "SynthesisCardId": 2,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 3,
+                                "SynthesisCardLevel": 0
+                            },
+                            {
+                                "SynthesisCardId": 4,
+                                "SynthesisCardLevel": 0
+                            }
+                        ]
+                    }
+                ],
+                "Time": 1
+            },
+            {
+                "Value": 150,
+                "LevelCards": [{
+                    "CardName": "愚你同乐",
+                    "SynthesisCards": [
+                        {
+                            "SynthesisCardId": 1,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 3,
+                            "SynthesisCardLevel": 1
+                        },
+                        {
+                            "SynthesisCardId": 5,
+                            "SynthesisCardLevel": 1
+                        }
+                    ]
+                }],
+                "Time": 4
+            }
+        ],
+        "ReleaseDate": "2011-07-27",
+        "IsChangeable": false
+    }
+]

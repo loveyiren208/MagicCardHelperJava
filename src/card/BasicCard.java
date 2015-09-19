@@ -1,23 +1,23 @@
 package card;
 
-import collection.AbstractCardsCollection;
+import level.Level;
 
 /**
  * Created by Vivian on 7/22/15.
  */
 public class BasicCard extends AbstractCard {
 
-    public BasicCard(final int id, final String name, final int value, final AbstractCardsCollection collection) {
-        super(id, name, value, collection, 0);
+    public BasicCard(final int id, final String name, final Level level) {
+        super(id, name, level);
     }
 
     @Override
-    public long getDirectSynthesisTimeInS() {
+    public long getDirectSynthesisTimeInH() {
         return 0;
     }
 
     @Override
-    public long getTotalSynthesisTimeInS() {
+    public long getTotalSynthesisTimeInH() {
         return 0;
     }
 }

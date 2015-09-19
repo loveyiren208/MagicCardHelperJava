@@ -1,6 +1,6 @@
 package card;
 
-import collection.AbstractCardsCollection;
+import level.Level;
 
 import java.io.Serializable;
 
@@ -9,20 +9,16 @@ import java.io.Serializable;
  */
 public abstract class AbstractCard implements Serializable{
     private int mValue;
-    private AbstractCardsCollection mMyCollection;
     private String mName;
 
     private int mId;
     // Basic card level is 0. Synthesis cards' level > 0;
-    private int mLevel;
+    private Level mLevel;
 
-    public AbstractCard(final int id, final String name, final int value, final AbstractCardsCollection collection, final int level) {
+    public AbstractCard(final int id, final String name, final Level level) {
         mId = id;
-        mValue = value;
         mName = name;
-        mMyCollection = collection;
         mLevel = level;
-        System.out.println(" value " + value);
     }
 
     public int getValue() {
@@ -33,23 +29,15 @@ public abstract class AbstractCard implements Serializable{
         return mId;
     }
 
-    public int getLevel() {
+    public Level getLevel() {
         return mLevel;
     }
 
-    public AbstractCardsCollection getMyCollection() {
-        return mMyCollection;
-    }
 
-    public abstract long getDirectSynthesisTimeInS();
-    public abstract long getTotalSynthesisTimeInS();
-    public boolean isChangable() {
-        return mMyCollection.isIsChangeable();
-    }
 
-    public boolean isOutOfPrint() {
-        return mMyCollection.isOutOfPrint();
-    }
+    public abstract long getDirectSynthesisTimeInH();
+    public abstract long getTotalSynthesisTimeInH();
+
 
     @Override
     public String toString() {
@@ -58,9 +46,6 @@ public abstract class AbstractCard implements Serializable{
         builder.append("name: " + mName + "\n");
         builder.append("value: " + mValue + "\n");
         builder.append("level: " + mLevel + "\n");
-        builder.append("collection: " + mMyCollection.getName() + "\n");
-        builder.append("isChangeable: " + isChangable() + "\n");
-        builder.append("isOutOfPrint: " + isOutOfPrint() + "\n");
 
         return builder.toString();
     }

@@ -1,6 +1,8 @@
 package collection;
 
 import card.AbstractCard;
+import function.GameHelper;
+import level.Level;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -11,6 +13,9 @@ import java.util.Date;
 public class AbstractCardsCollection implements Serializable {
 
     protected AbstractCard[] mCards;
+
+    protected Level[] mLevels;
+
     private String mName;
     private int mCount;
     private boolean hasCollected = false;
@@ -23,16 +28,20 @@ public class AbstractCardsCollection implements Serializable {
 
     private long mTotalTimeInH;
 
-    public AbstractCardsCollection(final int count, final String name, final boolean outOfPrint, final int stars,
+    public AbstractCardsCollection(final String name, final int stars,
                                    final boolean isChangeable, final Date releaseDate, final Date outOfPrintDate) {
-        mCount = count;
         mName = name;
-        mIsOutOfPrint = outOfPrint;
         mStars = stars;
         mIsChangeable = isChangeable;
         mReleaseDate = releaseDate;
         mOutOfPrintDate = outOfPrintDate;
+
+        if (mOutOfPrintDate != null) {
+            mIsOutOfPrint = true;
+        }
     }
+
+
 
     public String getName() {
         return mName;
@@ -46,7 +55,24 @@ public class AbstractCardsCollection implements Serializable {
         }
     }
 
-    public void isAlreadyCollected() {
+    public void setReleaseDate(final String dateString) {
+        Date date = GameHelper.getDateFromString(dateString);
+        if (date != null) {
+            mReleaseDate = date;
+        }
+    }
+
+    public void setOutOfPrintDate(final String dateString) {
+        Date date = GameHelper.getDateFromString(dateString);
+        if (date != null) {
+            mOutOfPrintDate = date;
+            setOutOfPrint();
+        }
+    }
+
+
+
+    public void setAlreadyCollected() {
         hasCollected = true;
     }
 
@@ -61,8 +87,22 @@ public class AbstractCardsCollection implements Serializable {
     public void setOutOfPrint() {
          mIsOutOfPrint = true;
     }
+
+    public void setUpLevels(final Level[] levels) {
+        mLevels = levels;
+    }
+
     public void setCards(final AbstractCard[] cards) {
         mCards = cards;
+        mTotalTimeInH = getTotalTimeInH();
+    }
+
+    public int getTotalTimeInH() {
+        int time = 0;
+        for (AbstractCard c : mCards) {
+            time += c.getTotalSynthesisTimeInH();
+        }
+        return time;
     }
 
     public AbstractCard[] getCards() {

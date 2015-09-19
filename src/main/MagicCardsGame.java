@@ -5,12 +5,16 @@ import collection.AbstractCardsCollection;
 import function.GameHelper;
 import org.json.JSONException;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 /**
  * Created by Vivian on 7/21/15.
  */
 public class MagicCardsGame {
+
+    public static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
+
     private ArrayList<AbstractCardsCollection> mCollections;
 
     private GameHelper mHelper = new GameHelper();
@@ -74,11 +78,17 @@ public class MagicCardsGame {
 
     public static void main(String[] args) {
         MagicCardsGame game = new MagicCardsGame();
-       game.addManyCardsCollections(game.getAllCollections(), "res/AlreadyStoredCollections");
-        game.addCardsCollection(game.getAllCollections(), "res/newCollection");
 
-      game.find(game);
+        game.changeToOtherFormat();
+       //game.addManyCardsCollections(game.getAllCollections(), "res/AlreadyStoredCollections");
+        //game.addCardsCollection(game.getAllCollections(), "res/newCollection");
+
+      //game.find(game);
       //  game.find2(game);
+    }
+
+    public void changeToOtherFormat() {
+        mHelper.changeToAnotherJson("res/AlreadyStoredCollections");
     }
 
     public void find(MagicCardsGame game) {
@@ -99,4 +109,6 @@ public class MagicCardsGame {
             System.out.println(c.toString());
         }
     }
+
+
 }

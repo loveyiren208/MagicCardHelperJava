@@ -2,6 +2,7 @@ package function;
 
 import card.AbstractCard;
 import collection.AbstractCardsCollection;
+import main.MagicCardsGame;
 import org.json.JSONException;
 
 import java.io.File;
@@ -11,13 +12,33 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Date;
+
 /**
  * Created by Vivian on 7/21/15.
  */
 public class GameHelper {
 
     private static final String ALL_COLLECTIONS_PATH = "res/AllCollections.ser";
+
+    public void changeToAnotherJson(final String oldPath) {
+        new JsonHandler().changeJsonToAnotherJson(oldPath);
+    }
+
+    public static Date getDateFromString(final String dateString) {
+        Date date = null;
+        try {
+            MagicCardsGame.DATE_FORMAT.parse(dateString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+            System.err.println("Wrong date input: " + dateString);
+        }
+
+        return date;
+    }
+
 
     public ArrayList<AbstractCardsCollection> getAllCollections() {
         ArrayList<AbstractCardsCollection> allCollections = new ArrayList<AbstractCardsCollection>();
